@@ -3,9 +3,9 @@ from datetime import datetime, timedelta
 
 def cleanup_unused_resources():
     # AWS credentials and region
-    aws_access_key_id = 'YOUR_ACCESS_KEY_ID'
-    aws_secret_access_key = 'YOUR_SECRET_ACCESS_KEY'
-    aws_region = 'YOUR_AWS_REGION'
+    #aws_access_key_id = 'YOUR_ACCESS_KEY_ID'
+    #aws_secret_access_key = 'YOUR_SECRET_ACCESS_KEY'
+    aws_region = 'ap-southeast-2'
 
     # Initialize AWS clients
     ec2_client = boto3.client('ec2', region_name=aws_region)
